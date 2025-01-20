@@ -1,0 +1,37 @@
+body {
+  background-color: #5C6070;
+  color: white;
+}
+#logo {
+  border-radius: 50%;
+  text-align: right;
+}
+
+
+.carousel-home {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+  justify-content: center;
+}
+
+.bigsatellite-img {
+  width: 1000px;
+  height: 585px;
+  object-fit: cover;
+}
+.careers-img {
+  width: 1000px;
+  height: 585px;
+  object-fit: cover;
+}
+.lightbulb-img {
+  width: 1000px;
+  height: 585px;
+  object-fit: cover;
+}
+
+.carousel-inner {
+  width: 100%;
+  display: -ms-flexbox;
+}
