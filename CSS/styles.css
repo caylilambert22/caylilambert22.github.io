@@ -8,6 +8,22 @@ body {
 }
 
 
+
+.navbar-nebula {
+  background-color: #5C6070 !important;
+  color: white;
+  ;
+}
+.navbar-nebula a {
+  color: white;
+}
+
+.navbar-nebula a:hover {
+  color: greenyellow;
+}
+
+
+
 .carousel-home {
   width: 100%;
   margin: 0 auto;
@@ -34,4 +50,31 @@ body {
 .carousel-inner {
   width: 100%;
   display: -ms-flexbox;
+}
+
+
+
+.did-you-know {
+  background-color: #C3C0C0;
+  color: black;
+  padding: 10px;
+  width: 100%;
+  height: 20vh;
+}
+.dyk-header {
+  margin: 2%;
+  float: left;
+  width: 20%;
+  text-align: center;
+  display: flex;
+  font-size: .4 vw;
+}
+.dyk-maintext {
+  margin-left: 1%;
+  padding: 15px;
+  float: right;
+  width: 70%;
+  text-align: center;
+  display: flex;
+  font-size: 2.0vh;
 }
