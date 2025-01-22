@@ -1,6 +1,7 @@
 body {
   background-color: #5C6070;
   color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 #logo {
   border-radius: 50%;
@@ -35,16 +36,28 @@ body {
   width: 1000px;
   height: 585px;
   object-fit: cover;
+  border-style: solid;
+  border-color:#C3C0C0;
+  border-width: 2px;
+  border-radius: 10px;
 }
 .careers-img {
   width: 1000px;
   height: 585px;
   object-fit: cover;
+  border-style: solid;
+  border-color:#C3C0C0;
+  border-width: 2px;
+  border-radius: 10px;
 }
 .lightbulb-img {
   width: 1000px;
   height: 585px;
   object-fit: cover;
+  border-style: solid;
+  border-color:#C3C0C0;
+  border-width: 2px;
+  border-radius: 10px;
 }
 
 .carousel-inner {
@@ -60,21 +73,64 @@ body {
   padding: 10px;
   width: 100%;
   height: 20vh;
-}
-.dyk-header {
-  margin: 2%;
-  float: left;
-  width: 20%;
-  text-align: center;
+  position: relative;
   display: flex;
-  font-size: .4 vw;
+}
+.dyk-header h2 {
+  
+  display: flex;
+  margin-left: 7;
+  float: left;
+  width: 60%;
+  text-align: right;
+  font-size: 4vw;
+  position: relative;
+  top: 10px;
+  clear:both;
+
 }
 .dyk-maintext {
+  display: flex;
   margin-left: 1%;
-  padding: 15px;
+  margin-top: auto;
+  margin-bottom: 0;
   float: right;
   width: 70%;
-  text-align: center;
+  text-align:left;
+  font-size: 10px;
+  font-size: 2vw;
+  position: absolute;
+  bottom: 10px;
+  right: 2%;
+}
+
+
+.join-our-newsletter-container {
+  width: 100%;
   display: flex;
-  font-size: 2.0vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  background-color: transparent;
+}
+
+.join-our-newsletter {
+  width: 70%;
+  background-color: #5C6070 !important;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 8%;
+  padding-right: 8%;
+  border-style:solid;
+  border-radius: 10px;
+}
+.join-our-newsletter h1 {
+  color: white;
+  text-align: center;
+
+}
+.join-our-newsletter p {
+  color: black;
+  text-align: center;
+
 }
