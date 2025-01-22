@@ -69,6 +69,8 @@ body {
 
 .did-you-know {
   background-color: #C3C0C0;
+  border-bottom: solid white 2px;
+  border-top: solid white 2px;
   color: black;
   padding: 10px;
   width: 100%;
@@ -77,7 +79,7 @@ body {
   display: flex;
 }
 .dyk-header h2 {
-  
+  font-weight: bold;
   display: flex;
   margin-left: 7;
   float: left;
@@ -90,6 +92,7 @@ body {
 
 }
 .dyk-maintext {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   margin-left: 1%;
   margin-top: auto;
@@ -97,11 +100,19 @@ body {
   float: right;
   width: 70%;
   text-align:left;
-  font-size: 10px;
-  font-size: 2vw;
+  font-size: 8px;
+  font-size: 1.5vw;
   position: absolute;
   bottom: 10px;
   right: 2%;
+}
+
+.did-you-know .dotted-line {
+  border-top: 10px dotted;
+  width: 40%;
+  height: 1vh;
+  border-color: black;
+  display: flex;
 }
 
 
@@ -111,6 +122,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 5%;
+  margin-bottom: 5%;
   background-color: transparent;
 }
 
@@ -132,5 +144,17 @@ body {
 .join-our-newsletter p {
   color: black;
   text-align: center;
+}
 
+.footer-container {
+  margin: 2%;
+
+}
+.nebula-footer {
+  width: 100%;
+  background-color: #3d3f4a;
+  color: white !important;
+  height: 10%;
+  padding: 10px;
+  margin-top: 50%;
 }
