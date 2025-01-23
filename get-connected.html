@@ -24,10 +24,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Get to Know Us</a>
+              <a class="nav-link" href="get-to-know-us.html">Get to Know Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Get Connected</a>
+              <a class="nav-link" href="get-connected.html">Get Connected</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Learn More</a>
@@ -37,17 +37,50 @@
       </div>
     </nav>
   
-  </head>
+  </header>
 
-  <footer class="nebula-footer mt-auto">
-    <div class="footer-container">
+  <h1 id="get-connected">Get Connected!</h1>
+  <p  id="get-connected-text"><small>Interested in using our technology to enhance your business? Let's get in touch.</small></p>
+  <form class="nebula-form">
+    <div class="nebula-form-container">
+    <div class="mb-3">
+        <label for="exampleInputUsername1" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">Full Name</label>
+        <input type="text" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 nebula-form-email">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputUsername1" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">Company/Business</label>
+      <input type="text" class="form-control" aria-label="With textarea"></textarea>
+    </div>
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Select Your Country</option>
+      <option value="1">United States</option>
+      <option value="2">Canada</option>
+      <option value="3">Mexico</option>
+    </select>
+
+
+
+
+    <button type="submit" class="btn btn-primary text-bg-success border border-success nebula-submit-button">Submit</button>
+    </div>
+  </form>
+
+  <footer class="nebula-footer mt-auto vh-80 d-flex flex-column">
+    <div class="footer-container overflow-auto">
       <a class="navbar-brand" href="index.html">
         <img src="Images/main-logo.jpeg" alt="Logo" width="50" height="48" class="d-inline-block align-text-middle" id="logo">
         Nebula Dynamics
       </a>
       <br>
       <small class="small">Nebula Dynamics | All Rights Reserved <br> Privacy Policy </small>
-    
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

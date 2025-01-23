@@ -23,7 +23,15 @@ body {
   color: greenyellow;
 }
 
+.starting-statement {
+  max-width: 50ch;
+  margin-left: 3%;
+  margin-top: 5%;
+}
 
+.starting-statement p {
+  color: yellowgreen;
+}
 
 .carousel-home {
   width: 100%;
@@ -99,6 +107,7 @@ body {
   margin-bottom: 0;
   float: right;
   width: 70%;
+  max-width: 70ch;
   text-align:left;
   font-size: 8px;
   font-size: 1.5vw;
@@ -108,11 +117,12 @@ body {
 }
 
 .did-you-know .dotted-line {
-  border-top: 10px dotted;
-  width: 40%;
+  border-top: 15px dotted;
+  width: 10%;
   height: 1vh;
   border-color: black;
   display: flex;
+  margin-top: 2%;
 }
 
 
@@ -157,4 +167,42 @@ body {
   height: 10%;
   padding: 10px;
   margin-top: 50%;
+}
+
+
+
+
+
+.nebula-form {
+  display: flex;
+  margin: 20px;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+.nebula-form .nebula-form-container {
+  color: black;
+  width: 50%;
+  height: auto;
+  background-color: white;
+  border-style: solid;
+  border-color:#3d3f4a;
+  border-width: 20px;
+  border-radius: 5px;
+  padding: 2%;
+}
+.nebula-submit-button {
+  display: flex !important;
+  justify-content: right;
+  margin-top: 10%;
+  background-color: rgb(117, 154, 61) !important;
+  border-color:rgb(117, 154, 61) !important;
+}
+#get-connected {
+  font-weight: bold;
+  margin-left: 27%;
+}
+#get-connected-text {
+  margin-left: 27%;
+  color: yellowgreen;
 }
