@@ -85,6 +85,7 @@ body {
   height: 20vh;
   position: relative;
   display: flex;
+  margin-bottom: 10%;
 }
 .dyk-header h2 {
   font-weight: bold;
@@ -119,10 +120,10 @@ body {
 .did-you-know .dotted-line {
   border-top: 15px dotted;
   width: 10%;
-  height: 1vh;
+  height: 5%;
   border-color: black;
-  display: flex;
   margin-top: 2%;
+  position: relative;
 }
 
 
@@ -154,6 +155,13 @@ body {
 .join-our-newsletter p {
   color: black;
   text-align: center;
+}
+.join-our-newsletter .nebula-submit-button-newsletter {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 2%;
+  background-color: rgb(117, 154, 61) !important;
+  border-color:rgb(117, 154, 61) !important;
 }
 
 .footer-container {
@@ -205,4 +213,25 @@ body {
 #get-connected-text {
   margin-left: 27%;
   color: yellowgreen;
+}
+
+
+
+.nebula-get-to-know-container {
+  justify-content: center;
+}
+.nebula-images {
+  display: flex;
+  object-fit: cover !important;
+  margin: 10%;
+}
+
+.nebula-first-image {
+  height: 100%;
+}
+.nebula-second-image {
+  height: 100%;
+}
+.nebula-third-image {
+  height: 100%;
 }
