@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="header-container">
+    <h1>GIPHY Search!</h1>
+  </div>  
+  <p class="blurb-text">bring your conversations to life</p>
+
+
+
+  <div class="js-container form-container">
+    <div class="flowers-img-container">
+      <img src="./images/flowers-svgrepo-com.svg" class="three-flowers-img">
+      <img src="./images/flowers-flower-svgrepo-com.svg" class="flowers-img">
+
+      <img src="./images/tulip-svgrepo-com.svg" class="single-flower-img">
+    </div>
+   
+  <input class="form-control" type="text" id="txt-gif" placeholder=changeInputText()>
+  <br>
+  <div class="stars-img-container">
+    <img src="./images/doodle-stars-svgrepo-com.svg" class="stars">
+    <button class="getData" onclick="getSyncData()">
+      Load GIFs
+    </button>
+  </div>
+
+ 
+
+  <div class="gif-container" id="js-gifContainer">
+  </div>
+
+  </div>
+
+  <div class="footer">
+    <button class="return-to-top" id="return" onclick="ScrolltoTop()">Return to search</button>
+  </div>
+  <script src="./javascript.js"></script>
+</body>
+</html>
+
