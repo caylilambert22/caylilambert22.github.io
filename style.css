@@ -11,8 +11,6 @@
   font-style: normal;
 }
 
-
-
 body {
   font-family: 'Sigmar', serif;
   font-weight: 400px;
@@ -27,7 +25,6 @@ p {
   text-align: center;
 }
 
-
 button {
   font-family: 'Sigmar Static', bold;
 }
@@ -38,19 +35,16 @@ input:focus {
   border-bottom: 3px solid #ff4500;
 
 }
-a {
-  text-decoration: none;
-}
-li {
-  display: flex;
-  list-style-type: none;
-}
+
+
+
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  width: 100%;
 }
 
 .nav-links {
@@ -68,9 +62,11 @@ li {
 }
 
 .title-container {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+   position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
 }
 
 .header-container {
@@ -85,6 +81,22 @@ li {
   justify-content: center !important;
   align-items: center;
 }
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: row;
+    display: inline-block;
+    top: 0;
+
+    font-size: 12px;
+  }}
+@media (max-width: 900px) { 
+  .title-container h1{
+    display: inline-block;
+    position: relative;
+    bottom: 0;
+    justify-content: center;
+  }}
 
 
 
